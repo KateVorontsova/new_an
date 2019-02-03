@@ -1,0 +1,348 @@
+body{
+
+    width: 1920px;
+    height: 1079px;
+    background-color: #71bfff;
+    padding: 181px 380px 180px 380px;
+   
+}
+
+.b-main{
+    display: flex;
+      width: 1160px;
+
+  height: 718px;
+
+  background-color: #ffffff;
+}
+
+
+
+.b-tuning{
+    
+      width: 580px;
+
+  height: 718px;
+
+  background-color: #e1f4ff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 90px;
+}
+
+.b-tuning__title{
+
+      font-family: Segoe UI;
+
+  font-size: 25px;
+
+  font-weight: bold;
+
+  line-height: 1.2;
+
+  text-align: left;
+
+  color: #000000;
+padding-top: 98px;
+    margin-bottom: 30px;  
+    
+}
+
+
+.b-choose{
+    
+    display: flex;
+    flex-direction: column;
+      width: 420px;
+
+  height: 272px;
+
+  background-color: #ffffff;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 42px;
+    margin-bottom: 58px;
+}
+
+
+
+.b-choose__range{
+    
+ padding-top: 51px;
+    margin-bottom: 38px;
+    
+}
+
+
+
+
+.b-choose__items{
+   
+    
+      width: 418px;
+
+  height: 4px;
+
+  border-radius: 2px;
+
+  background-color: #d1e3f2;
+}
+
+
+
+.b-choose__grades{
+    
+    display: flex;  
+    list-style: none;
+      font-family: Segoe UI;
+
+  font-size: 16px;
+    line-height: 1.19;
+
+  color: #000000;
+    padding: 0px;
+    margin-bottom: 86px;
+}
+
+.b-grades__item:nth-child(2){
+    
+    margin-right: 142px;
+    margin-left: 142px;
+    
+}
+
+.b-grades__descr{
+    
+    display: flex;
+      font-family: Segoe UI;
+
+  font-size: 16px;
+    line-height: 1.19;
+      text-align: left;
+
+  color: #000000;
+    margin-right: 32px;
+}
+
+
+.b-grades__img{
+    
+    margin-right: 13px;
+        height: 10%;
+    width: auto;
+}
+
+
+
+
+
+
+.b-avatar{
+    
+     display: flex;
+}
+
+
+.b-body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.b-body__name, .b-face__name{
+    
+    font-family: Segoe UI;
+
+  font-size: 25px;
+
+  font-weight: bold;
+   line-height: 1.2;
+    text-align: left;
+
+  color: #000000;
+    margin-bottom: 30px;
+    
+}
+
+.b-body__color, .b-face__color{
+    
+    display: flex;
+      width: 240px;
+
+  height: 90px;
+
+  background-color: #ffffff;
+    margin-right: 20px;
+}
+
+
+.b-body__item, .b-face__item{
+      width: 60px;
+
+  height: 60px;
+border:1px solid #d6d6d6;
+  border-radius: 8px;
+    margin:15px;
+}
+
+
+.b-body__item:nth-child(2), .b-face__item:nth-child(2){
+    
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+
+.b-body__img{
+    
+    margin: 13px 8.4px 0.3px 9px;
+    
+}
+
+.b-face__img{
+    width:33.1px;
+    height: 19.5px;
+    
+    margin: 19.8px 12.2px 18.8px 12.8px;
+    
+}
+
+.b-result{
+    background-color: #fff;
+    width: 580px;
+    height: 718px;
+    padding-bottom: 13px;
+    display:flex;
+    flex-direction: column;
+    padding-top: 76.9px;
+    padding-right: 106px; 
+    padding-left:  118px;
+}
+
+
+
+
+.b-cloud {
+	position:relative;
+	width:356px;
+	padding:0px 0px;
+	margin:0;
+	text-align:center;
+	color:#fff;
+	background:#fff;
+	-webkit-border-top-left-radius:213px 156px;
+	-webkit-border-top-right-radius:213px 156px;
+	-webkit-border-bottom-right-radius:213px 156px;
+	-webkit-border-bottom-left-radius:213px 156px;
+	-moz-border-radius:213px / 156px;
+	border-radius:213px / 156px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.b-cloud__jun, .b-cloud__mid, .b-cloud__sen{
+    
+    display: none;
+    
+}
+
+
+.b-active{
+    
+    display:block;
+  
+}
+
+
+
+
+
+.b-cloud__item{
+    height: auto;
+    width: auto;
+border: 1px solid #006bcc;
+    background-color: #006bcc;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 0.3em;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+
+
+
+.b-person{
+    
+       padding-top:0px;
+    
+    position: absolute;
+        top: 550px;
+ 
+   
+    
+}
+
+.b-person_bodyimg{
+     margin-top: 0px;
+    
+     width: 201.9px;
+
+  height: 276.7px;
+    margin-left: 77px;
+    margin-bottom: -116px;
+    overflow: hidden;
+
+    
+}
+
+ 
+.b-person_faceimg{
+    
+    
+    margin-top: -28px;
+
+margin-bottom: -168px;
+
+overflow: hidden;
+
+margin-left: 100px;
+
+position: relative;
+}
+
+
+
+
+
+
+.b-person__face{
+    
+    margin-bottom: 0px;
+    
+}
+
+
+
+
+
+.b-table__img{
+
+       margin-bottom:  93.6px;
+    
+}
+
